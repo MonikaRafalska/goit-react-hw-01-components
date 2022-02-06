@@ -13,7 +13,7 @@
   font-size: 18px;
   color: #696969;
   text-transform: capitalize;
-  height: 45px;
+    height: 45px;
   font-weight: 500
 }
 .transaction__body{
@@ -21,4 +21,9 @@
 }
 .transaction__item:nth-child(2n){
   background-color: #fff;
+}
+.transaction__type{
+    display: flex;
+    padding-left: 42%;
+    padding-top: 9px;
 }

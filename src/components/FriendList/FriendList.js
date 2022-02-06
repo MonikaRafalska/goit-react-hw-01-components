@@ -6,9 +6,11 @@ const FriendList = ({ friends }) => {
     <ul className={styles.friend__list}>
       {friends.map((friend) => (
         <li key={friend.id} className={styles.item}>
-          <span
-            className={friend.isOnLine ? styles.status__on : styles.status__off}>
-           </span>
+          {friend.isOnline === true ? (
+            <span className={styles.status__on}>{friend.isOnline}</span>
+          ) : (
+            <span className={styles.status__off}>{friend.isOnline}</span>
+          )}
           <img
             className={styles.avatar}
             src={friend.avatar}
@@ -27,5 +29,3 @@ FriendList.propTypes = {
 };
 
 export default FriendList;
-
-//do dopracowania zmiana kolorku statusu!!!!!!!!!!!!!!!

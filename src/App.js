@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Profile from "./components/Profile/Profile";
 import user from "./components/Profile/user.json";

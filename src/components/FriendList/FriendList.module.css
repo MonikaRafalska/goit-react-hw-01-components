@@ -15,14 +15,6 @@
   box-shadow: 5px 5px 5px grey;
   width: 300px;
 }
-/* .status{
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  margin: auto 10px;
-  background-color: #008000;
-  
-} */
 .status__on{
   width: 12px;
   height: 12px;

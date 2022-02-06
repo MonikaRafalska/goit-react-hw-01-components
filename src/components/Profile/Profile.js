@@ -1,5 +1,5 @@
 import styles from "./Profile.module.css";
-import PropTypes, { object } from "prop-types";
+import PropTypes from "prop-types";
 
 const Profile = (user) => (
   <div className={styles.profile}>

@@ -1,0 +1,24 @@
+.transaction__history{
+  border: 1px solid black;
+  margin: 30px auto;
+  width: 700px;
+}
+.transaction__header{
+  background-color: #19bcc2;
+  text-transform: uppercase;
+  color: #fff;
+  height: 45px;
+}
+.transaction__item{
+  font-size: 18px;
+  color: #696969;
+  text-transform: capitalize;
+  height: 45px;
+  font-weight: 500
+}
+.transaction__body{
+  background-color: #f3f3f3fd;
+}
+.transaction__item:nth-child(2n){
+  background-color: #fff;
+}
